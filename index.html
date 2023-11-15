@@ -5,33 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form Landing Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+        <nav class="nav-bar">
+            <ul class="link-list">
+                <li class="link-item"><a href="#">GitHub</a></li>
+                <li class="link-item"><a href="#">Portfolio</a></li>
+                <li class="link-item"><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>My New Website</h1>
-        <img src="./assets/image-1.png" alt="profile coming soon" />
+    <main class="content">
+        <h1 class="content-title">My New Website</h1>
+        <img class="content-image" src="./assets/images/image-1.png" alt="profile coming soon" />
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        <section>
-            <h3>Contact Me</h3>
-            <form>
-                <label>Name:</label>
-                <input type="text" />
-                <label>Email:</label>
-                <input type="email" />
+        <section class="contact-form-section">
+            <h3 class="contact-form-title">Contact Me</h3>
+            <form class="contact-form">
+                <div class="contact-form-control">
+                    <label for="name">Name:</label>
+                    <input name="name" type="text" />
+                </div>
+                <div class="contact-form-control">
+                    <label for="email">Email:</label>
+                    <input name="email" type="email" />
+                </div>
+                <input class="contact-form-submit" type="submit" />
             </form>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>&copy; 2023 My New Website Productions</p>
     </footer>
 </body>
