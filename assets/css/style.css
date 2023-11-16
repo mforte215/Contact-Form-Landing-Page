@@ -10,9 +10,9 @@
 }
 .nav-bar {
   width: 100%;
-  background-color: darkolivegreen;
+  background-color: #586994;
   height: 2em;
-  border-bottom: 10px solid rgb(221, 160, 180);
+  border-bottom: 10px solid #a2abab;
 }
 
 .link-list {
@@ -33,14 +33,17 @@
 
 .content {
   text-align: center;
-}
-
-.content-title {
-  margin: 2em 0 1em 0;
+  background-color: #e5e8b6;
+  margin: 2em 0 0 0;
 }
 
 .content-image {
   margin-bottom: 1em;
+}
+
+.content-title {
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 
 .content p {
@@ -52,7 +55,7 @@
 }
 
 .contact-form {
-  border: 4px solid rgb(221, 160, 180);
+  border: 4px solid #a2abab;
   border-radius: 15px;
   width: 40%;
   padding: 20px;
@@ -60,7 +63,7 @@
 }
 
 .contact-form-section {
-  background-color: rgb(206, 135, 2);
+  background-color: #b4c4ae;
   padding: 1em;
 }
 
@@ -78,7 +81,7 @@
   width: 100%;
   text-align: center;
   color: white;
-  background-color: darkolivegreen;
+  background-color: #586994;
   height: 4em;
   border-bottom: 8px solid rgb(59, 59, 59);
 }
